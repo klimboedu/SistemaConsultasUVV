@@ -34,7 +34,7 @@ Responsável pela interface apresentada ao usuário.
 
 As páginas estão localizadas na pasta:
 
-Views/
+`Views/`
 
 Principais controllers:
 
@@ -66,7 +66,7 @@ appsettings.json
 
 A estrutura do banco é criada e atualizada através das migrations do Entity Framework Core que estão na pasta:
 
-Migrations/
+`Migrations/`
 
 # Configuração do banco de dados
 
