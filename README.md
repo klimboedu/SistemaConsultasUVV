@@ -75,6 +75,8 @@ Antes de executar o sistema, configure a string de conexão com o SQL Server no 
 appsettings.json
 
 Por exemplo: 
+
+
 `"ConnectionStrings": {
   "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=SistemasConsultas;Trusted_Connection=True;MultipleActiveResultSets=true"`
 }
@@ -93,7 +95,7 @@ Update-Database
 1. Abra a solução preferencialmente no Visual Studio.
 1. Verifique a string de conexão no arquivo appsettings.json.
 1. Execute as migrations utilizando:
-Update-Database
+                            `Update-Database`
 1. Execute o projeto.
 
 ## Validações
