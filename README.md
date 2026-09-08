@@ -95,6 +95,7 @@ Update-Database
 1. Abra a solução preferencialmente no Visual Studio.
 1. Verifique a string de conexão no arquivo appsettings.json.
 1. Execute as migrations utilizando:
+   
                             `Update-Database`
 1. Execute o projeto.
 
