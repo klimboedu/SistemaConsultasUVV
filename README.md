@@ -38,8 +38,8 @@ Views/
 
 Principais controllers:
 
-AccountController
-ConsultaController
+AccountController,
+ConsultaController,
 Funcionalidades
 
 O sistema possui as seguintes funções:
