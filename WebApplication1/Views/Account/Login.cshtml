@@ -1,0 +1,42 @@
+﻿@model SistemasConsultas.Models.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+<form asp-action="Login" method="post">
+
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+
+    <div>
+        <label asp-for="Senha"></label>
+        <input asp-for="Senha" />
+        <span asp-validation-for="Senha"></span>
+    </div>
+
+    <div>
+        <span asp-validation-summary="All"></span>
+    </div>
+
+    <button type="submit">Entrar</button>
+
+</form>
+
+<p>
+    Ainda não possui uma conta?
+    <a asp-controller="Account" asp-action="Cadastro">
+        Cadastre-se
+    </a>
+</p>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
