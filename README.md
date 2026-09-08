@@ -38,9 +38,9 @@ Views/
 
 Principais controllers:
 
-AccountController,
-ConsultaController,
-Funcionalidades
+- `AccountController`
+- `ConsultaController`
+- `Funcionalidades`
 
 O sistema possui as seguintes funções:
 
@@ -75,8 +75,8 @@ Antes de executar o sistema, configure a string de conexão com o SQL Server no 
 appsettings.json
 
 Por exemplo: 
-"ConnectionStrings": {
-  "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=SistemasConsultas;Trusted_Connection=True;MultipleActiveResultSets=true"
+`"ConnectionStrings": {
+  "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=SistemasConsultas;Trusted_Connection=True;MultipleActiveResultSets=true"`
 }
 
 A string de conexão deve ser ajustada de acordo com a configuração do SQL Server utilizado.
@@ -93,7 +93,7 @@ Update-Database
 1. Abra a solução preferencialmente no Visual Studio.
 1. Verifique a string de conexão no arquivo appsettings.json.
 1. Execute as migrations utilizando:
-   Update-Database
+Update-Database
 1. Execute o projeto.
 
 ## Validações
