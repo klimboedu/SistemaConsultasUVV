@@ -121,7 +121,7 @@ do PasswordHasher, não sendo armazenadas em texto puro no banco de dados.
 
 Vídeo de demonstração do sistema:
 
-(link)
+[Clique aqui](https://www.youtube.com/watch?v=QIaVdRJuq68) ou em https://www.youtube.com/watch?v=QIaVdRJuq68
 
 O vídeo apresenta as principais funcionalidades do sistema, incluindo:
 
